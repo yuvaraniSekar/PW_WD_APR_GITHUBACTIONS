@@ -12,6 +12,9 @@ test('Learning playwright locators',async({page})=>{
    await page.getByLabel('View All Applications',{exact:true}).click()
    await page.getByPlaceholder('Search apps or items...',{exact:true}).fill('lead')
 
+    //modification done
+    console.log('Learned playwright locators')
+
   // await page.getByTestId('OverlayClick').click()
 
 })
